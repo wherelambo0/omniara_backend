@@ -1,0 +1,30 @@
+[2025-06-07 00:57:05,588] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-06-07 00:57:11,194] WARNING django.request Not Found: /api/register/
+
+[2025-06-07 00:57:11,195] WARNING django.server "POST /api/register/%0A HTTP/1.1" 404 8258
+[2025-06-07 01:00:54,179] INFO django.utils.autoreload C:\Users\Jarvis\Desktop\Omni\omniara_backend\store\urls.py changed, reloading.
+[2025-06-07 01:00:55,634] INFO django.utils.autoreload Watching for file changes with StatReloader
+[2025-06-07 01:01:01,148] WARNING django.request Not Found: /api/register/
+
+[2025-06-07 01:01:01,149] WARNING django.server "POST /api/register/%0A HTTP/1.1" 404 7731
+[2025-06-07 01:01:14,252] WARNING django.request Not Found: /api/register/
+
+[2025-06-07 01:01:14,253] WARNING django.server "POST /api/register/%0A HTTP/1.1" 404 7731
+[2025-06-07 01:02:11,476] WARNING django.request Not Found: /api/register/
+
+[2025-06-07 01:02:11,477] WARNING django.server "POST /api/register/%0A HTTP/1.1" 404 7731
+[2025-06-07 01:02:54,546] WARNING django.request Not Found: /api/register/
+[2025-06-07 01:02:54,547] WARNING django.server "POST /api/register/ HTTP/1.1" 404 7726
+[2025-06-07 01:03:07,504] WARNING django.request Not Found: /api/register/
+[2025-06-07 01:03:07,505] WARNING django.server "GET /api/register/ HTTP/1.1" 404 7725
+[2025-06-07 01:03:10,318] WARNING django.request Not Found: /favicon.ico
+[2025-06-07 01:03:10,319] WARNING django.server "GET /favicon.ico HTTP/1.1" 404 3523
+[2025-06-07 01:03:35,760] WARNING django.security.csrf Forbidden (CSRF cookie not set.): /password-reset-complete/
+[2025-06-07 01:03:35,761] WARNING django.server "POST /password-reset-complete/ HTTP/1.1" 403 2855
+[2025-06-07 01:03:45,367] WARNING django.request Not Found: /api/password-reset-complete/
+[2025-06-07 01:03:45,367] WARNING django.server "POST /api/password-reset-complete/ HTTP/1.1" 404 7771
+[2025-06-07 01:04:35,757] WARNING django.request Bad Request: /api/auth/register/
+[2025-06-07 01:04:35,758] WARNING django.server "POST /api/auth/register/ HTTP/1.1" 400 79
+[2025-06-07 01:06:39,582] INFO store.views_auth New user registered: your_username
+[2025-06-07 01:06:39,584] INFO django.server "POST /api/auth/register/ HTTP/1.1" 201 46
+[2025-06-07 01:07:25,836] INFO django.server "POST /api/token/ HTTP/1.1" 200 483
